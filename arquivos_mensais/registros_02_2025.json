@@ -1,0 +1,222 @@
+[
+  {
+    "id": 761,
+    "data_inicio": "08/02/2025",
+    "data_fim": "08/02/2025",
+    "matricula_tecnico": "MAT0001",
+    "tecnico_nome": "JOÃO SILVA",
+    "num_kit": "KIT-012",
+    "local": "FILIAL OESTE",
+    "horario_inicio": "10:45",
+    "horario_fim": "18:15"
+  },
+  {
+    "id": 762,
+    "data_inicio": "19/02/2025",
+    "data_fim": "20/02/2025",
+    "matricula_tecnico": "MAT0003",
+    "tecnico_nome": "PEDRO OLIVEIRA",
+    "num_kit": "KIT-011",
+    "local": "MATRIZ",
+    "horario_inicio": "11:00",
+    "horario_fim": "14:15"
+  },
+  {
+    "id": 763,
+    "data_inicio": "24/02/2025",
+    "data_fim": "24/02/2025",
+    "matricula_tecnico": "MAT0010",
+    "tecnico_nome": "PATRICIA FERNANDES",
+    "num_kit": "KIT-009",
+    "local": "FILIAL LESTE",
+    "horario_inicio": "15:15",
+    "horario_fim": "18:30"
+  },
+  {
+    "id": 764,
+    "data_inicio": "19/02/2025",
+    "data_fim": "19/02/2025",
+    "matricula_tecnico": "MAT0003",
+    "tecnico_nome": "PEDRO OLIVEIRA",
+    "num_kit": "KIT-007",
+    "local": "FILIAL SUL",
+    "horario_inicio": "09:00",
+    "horario_fim": "14:15"
+  },
+  {
+    "id": 765,
+    "data_inicio": "02/02/2025",
+    "data_fim": "02/02/2025",
+    "matricula_tecnico": "MAT0006",
+    "tecnico_nome": "JULIANA LIMA",
+    "num_kit": "KIT-013",
+    "local": "MATRIZ",
+    "horario_inicio": "12:30",
+    "horario_fim": "17:30"
+  },
+  {
+    "id": 766,
+    "data_inicio": "07/02/2025",
+    "data_fim": "07/02/2025",
+    "matricula_tecnico": "MAT0007",
+    "tecnico_nome": "RICARDO ALVES",
+    "num_kit": "KIT-013",
+    "local": "FILIAL OESTE",
+    "horario_inicio": "17:00",
+    "horario_fim": "19:00"
+  },
+  {
+    "id": 767,
+    "data_inicio": "13/02/2025",
+    "data_fim": "13/02/2025",
+    "matricula_tecnico": "MAT0004",
+    "tecnico_nome": "ANA COSTA",
+    "num_kit": "KIT-003",
+    "local": "FILIAL NORTE",
+    "horario_inicio": "12:30",
+    "horario_fim": "19:15"
+  },
+  {
+    "id": 768,
+    "data_inicio": "24/02/2025",
+    "data_fim": "24/02/2025",
+    "matricula_tecnico": "MAT0006",
+    "tecnico_nome": "JULIANA LIMA",
+    "num_kit": "KIT-020",
+    "local": "FILIAL OESTE",
+    "horario_inicio": "17:00",
+    "horario_fim": "15:45"
+  },
+  {
+    "id": 769,
+    "data_inicio": "26/02/2025",
+    "data_fim": "26/02/2025",
+    "matricula_tecnico": "MAT0006",
+    "tecnico_nome": "JULIANA LIMA",
+    "num_kit": "KIT-005",
+    "local": "MATRIZ",
+    "horario_inicio": "11:15",
+    "horario_fim": "19:30"
+  },
+  {
+    "id": 770,
+    "data_inicio": "25/02/2025",
+    "data_fim": "25/02/2025",
+    "matricula_tecnico": "MAT0001",
+    "tecnico_nome": "JOÃO SILVA",
+    "num_kit": "KIT-005",
+    "local": "UNIDADE INDUSTRIAL",
+    "horario_inicio": "16:15",
+    "horario_fim": "15:30"
+  },
+  {
+    "id": 771,
+    "data_inicio": "05/02/2025",
+    "data_fim": "05/02/2025",
+    "matricula_tecnico": "MAT0011",
+    "tecnico_nome": "JOÃO SILVA",
+    "num_kit": "KIT-006",
+    "local": "FILIAL OESTE",
+    "horario_inicio": "11:30",
+    "horario_fim": "19:00"
+  },
+  {
+    "id": 772,
+    "data_inicio": "03/02/2025",
+    "data_fim": "03/02/2025",
+    "matricula_tecnico": "MAT0001",
+    "tecnico_nome": "JOÃO SILVA",
+    "num_kit": "KIT-013",
+    "local": "FILIAL CENTRO",
+    "horario_inicio": "12:45",
+    "horario_fim": "12:00"
+  },
+  {
+    "id": 773,
+    "data_inicio": "10/02/2025",
+    "data_fim": "10/02/2025",
+    "matricula_tecnico": "MAT0007",
+    "tecnico_nome": "RICARDO ALVES",
+    "num_kit": "KIT-010",
+    "local": "FILIAL CENTRO",
+    "horario_inicio": "07:30",
+    "horario_fim": "11:45"
+  },
+  {
+    "id": 774,
+    "data_inicio": "01/02/2025",
+    "data_fim": "01/02/2025",
+    "matricula_tecnico": "MAT0008",
+    "tecnico_nome": "FERNANDA ROCHA",
+    "num_kit": "KIT-008",
+    "local": "LOJA SHOPPING",
+    "horario_inicio": "12:45",
+    "horario_fim": "14:00"
+  },
+  {
+    "id": 775,
+    "data_inicio": "26/02/2025",
+    "data_fim": "26/02/2025",
+    "matricula_tecnico": "MAT0010",
+    "tecnico_nome": "PATRICIA FERNANDES",
+    "num_kit": "KIT-010",
+    "local": "UNIDADE INDUSTRIAL",
+    "horario_inicio": "16:15",
+    "horario_fim": "17:00"
+  },
+  {
+    "id": 776,
+    "data_inicio": "15/02/2025",
+    "data_fim": "15/02/2025",
+    "matricula_tecnico": "MAT0003",
+    "tecnico_nome": "PEDRO OLIVEIRA",
+    "num_kit": "KIT-006",
+    "local": "UNIDADE INDUSTRIAL",
+    "horario_inicio": "09:30",
+    "horario_fim": "09:45"
+  },
+  {
+    "id": 777,
+    "data_inicio": "17/02/2025",
+    "data_fim": "17/02/2025",
+    "matricula_tecnico": "MAT0008",
+    "tecnico_nome": "FERNANDA ROCHA",
+    "num_kit": "KIT-040",
+    "local": "DEPÓSITO A",
+    "horario_inicio": "15:00",
+    "horario_fim": "16:15"
+  },
+  {
+    "id": 778,
+    "data_inicio": "09/02/2025",
+    "data_fim": "09/02/2025",
+    "matricula_tecnico": "MAT0012",
+    "tecnico_nome": "MARIA SANTOS",
+    "num_kit": "KIT-020",
+    "local": "FILIAL NORTE",
+    "horario_inicio": "11:30",
+    "horario_fim": "17:00"
+  },
+  {
+    "id": 779,
+    "data_inicio": "06/02/2025",
+    "data_fim": "06/02/2025",
+    "matricula_tecnico": "MAT0005",
+    "tecnico_nome": "CARLOS SOUZA",
+    "num_kit": "KIT-014",
+    "local": "FILIAL NORTE",
+    "horario_inicio": "16:30",
+    "horario_fim": "14:00"
+  },
+  {
+    "id": 780,
+    "data_inicio": "20/02/2025",
+    "data_fim": "20/02/2025",
+    "matricula_tecnico": "MAT0009",
+    "tecnico_nome": "BRUNO MARTINS",
+    "num_kit": "KIT-009",
+    "local": "UNIDADE INDUSTRIAL",
+    "horario_inicio": "13:15",
+    "horario_fim": "19:30"
+  }
+]
