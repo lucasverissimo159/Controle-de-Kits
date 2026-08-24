@@ -1,3 +1,297 @@
+# 🖥️ IT Kits Control System
+
+Desktop system for managing IT kits, technicians, and service locations.
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![CustomTkinter](https://img.shields.io/badge/CustomTkinter-5.2+-green.svg)
+![SQLite](https://img.shields.io/badge/SQLite-3-orange.svg)
+![License](https://img.shields.io/badge/License-View--Only-red.svg)
+
+---
+
+> ⚠️ **Repository provided for portfolio purposes only.** The code can
+> be viewed, but **cannot** be copied, downloaded, used, or
+> reused in other projects. See the [License](#-license) section and the
+> [`LICENSE`](./LICENSE) file.
+
+---
+
+## 📋 Features
+
+### Main Window
+- ✅ Registration of records (visits/maintenance)
+- ✅ Editing records
+- ✅ Change history
+- ✅ Filters by date, technician, kit, and location
+- ✅ Integrated calendar
+- ✅ Display of the last 20 records
+
+### Management
+- ✅ Registration of technicians
+- ✅ Registration of locations
+- ✅ Registration of kits
+- ✅ Editing and deleting items
+
+### Old Records
+- ✅ Automatic monthly archiving
+- ✅ Viewing historical data (JSON)
+- ✅ Filters by month/year
+
+### Statistics
+- ✅ Visual KPIs (Total, Completed, Technicians, Locations, Rate)
+- ✅ Time evolution chart (Plotly)
+- ✅ Top 5 most used Kits
+- ✅ Top 5 Technicians and Locations
+- ✅ Performance metrics
+- ✅ PDF Export
+- ✅ CSV/Excel Export
+
+### Interface
+- ✅ Light and dark theme
+- ✅ Modern interface (CustomTkinter)
+- ✅ Informative tooltips
+- ✅ ComboBox with scroll
+
+---
+
+## 🚀 Installation
+
+### 1. Clone or download the project
+```bash
+git clone <repository-url>
+cd kit_control_final
+```
+
+### 2. Create a virtual environment (recommended)
+```bash
+python -m venv venv
+
+# Windows
+venv\Scripts\activate
+
+# Linux/Mac
+source venv/bin/activate
+```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the system
+```bash
+python main.py
+```
+
+---
+
+## 📦 Dependencies
+
+| Package | Version | Description |
+|---------|---------|-------------|
+| customtkinter | ≥5.2.0 | Modern interface |
+| tkcalendar | ≥1.6.1 | Date picker |
+| matplotlib | ≥3.7.0 | Charts |
+| plotly | ≥5.15.0 | Interactive charts |
+| openpyxl | ≥3.1.2 | Excel export |
+| Pillow | ≥10.0.0 | Image manipulation |
+| reportlab | ≥4.0.0 | PDF generation |
+| numpy | ≥1.24.0 | Numerical calculations |
+
+---
+
+## 📁 Project Structure
+
+```
+kit_control_final/
+├── main.py                 # Entry point
+├── requirements.txt        # Dependencies
+├── README.md              # This file
+│
+├── config/
+│   └── settings.py        # Settings
+│
+├── models/
+│   └── database.py        # Database
+│
+├── views/
+│   ├── main_window.py     # Main window
+│   ├── record_window.py   # Record form
+│   ├── history_dialog.py  # History dialog
+│   ├── helpers.py         # Helper functions
+│   ├── stats_manager.py   # Statistics
+│   └── widgets/
+│       ├── scrollable_combobox.py
+│       ├── progress_dialog.py
+│       └── tooltip.py
+│
+├── resources/
+│   └── icons/
+│       └── icon.ico       # App icon
+│
+└── arquivos_mensais/      # Monthly JSON files
+```
+
+---
+
+## 🧪 Test Data
+
+To test with dummy data:
+
+```bash
+python gerar_dados_teste.py
+```
+
+This will:
+- Register 10 technicians
+- Register 10 locations
+- Register 20 kits
+- Generate ~300-400 records
+- Create monthly JSON files
+
+---
+
+## 🖼️ Screenshots
+
+### Main Window
+- Table with records
+- Filters at the top
+- Action buttons
+
+### Statistics
+- Colorful KPIs
+- Interactive charts
+- Rankings
+
+### Management
+- Editable lists
+- Add/Edit/Delete
+
+---
+
+## 🗄️ Database
+
+The system uses **SQLite** with the following tables:
+
+| Table | Description |
+|-------|-------------|
+| `registros` | Records of visits/maintenance |
+| `tecnicos` | Registration of technicians |
+| `locais` | Registration of locations |
+| `kits` | Registration of kits |
+| `config` | System settings |
+| `registro_historico` | Change history |
+
+---
+
+## 📊 Monthly Archiving
+
+The system automatically archives the previous month's records into JSON files:
+
+```
+arquivos_mensais/
+├── registros_01_2025.json
+├── registros_02_2025.json
+└── ...
+```
+
+---
+
+## ⚙️ Settings
+
+Edit `config/settings.py` to customize:
+
+```python
+DATABASE_NAME = 'kit_control.db'  # Database name
+DEFAULT_THEME = "light"           # Default theme: "light" or "dark"
+```
+
+---
+
+## 🎨 Themes
+
+Switch between light and dark themes by clicking the **THEME** button in the header.
+
+| Theme | Description |
+|-------|-------------|
+| Light | White background, black text |
+| Dark | Dark background, light text |
+
+---
+
+## 📤 Exports
+
+### PDF
+- Complete report with charts
+- Statistical data
+- A4 landscape format
+
+### CSV/Excel
+- Tabulated data
+- Excel compatible
+- .xlsx format
+
+---
+
+## 🔧 Development
+
+### MVC Architecture
+- **Model:** `models/database.py`
+- **View:** `views/*.py`
+- **Controller:** Integrated in views
+
+### Add new functionality
+1. Create the widget in `views/widgets/`
+2. Import in `views/main_window.py`
+3. Add to TabView or wherever necessary
+
+---
+
+## 📝 Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for change history.
+
+---
+
+## 📄 License
+
+This repository is **not open source**. It is made publicly available
+only for portfolio/technical demonstration purposes.
+
+- ✅ Allowed: viewing the code through the GitHub interface.
+- ❌ Prohibited: copying, downloading, cloning for reuse, using, modifying, executing
+  or redistributing this code, in whole or in part, without prior written
+  authorization from the author.
+
+All rights reserved. See full terms in
+[`LICENSE`](./LICENSE).
+
+---
+
+## 👨‍💻 Author
+
+Developed with ❤️ for efficient IT kits management.
+
+---
+
+## 🆘 Support
+
+If you encounter any problems:
+1. Check if dependencies are installed
+2. Make sure you are in the correct directory
+3. Try deleting `kit_control.db` and running again
+
+```bash
+rm kit_control.db
+python main.py
+```
+
+---
+
+**IT Kits Control System v2.0.0** 🖥️
+
+---
+
 # 🖥️ Sistema de Controle de Kits de Informática
 
 Sistema desktop para gerenciamento de kits de informática, técnicos e locais de atendimento.
